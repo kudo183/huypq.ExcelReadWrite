@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 14 for Windows Desktop
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelReadWrite", "ExcelReadWrite\ExcelReadWrite.csproj", "{AE722A1A-7655-4BFA-8703-4E2446A35D62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelReadWriteTest", "ExcelReadWriteTest\ExcelReadWriteTest.csproj", "{8B702E2E-3E44-4E2D-B438-9568A5C82600}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE722A1A-7655-4BFA-8703-4E2446A35D62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE722A1A-7655-4BFA-8703-4E2446A35D62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE722A1A-7655-4BFA-8703-4E2446A35D62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE722A1A-7655-4BFA-8703-4E2446A35D62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B702E2E-3E44-4E2D-B438-9568A5C82600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B702E2E-3E44-4E2D-B438-9568A5C82600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B702E2E-3E44-4E2D-B438-9568A5C82600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B702E2E-3E44-4E2D-B438-9568A5C82600}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
