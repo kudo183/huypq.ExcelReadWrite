@@ -26,12 +26,11 @@ namespace ExcelReadWrite
                 da = new OleDbDataAdapter(cmd);
                 da.Fill(ds);
 
-                var result = new List<List<object>>();
-                var rowData = new List<object>();
+                var result = new List<List<object>>();                
 
                 foreach (DataRow row in ds.Tables[0].Rows)
                 {
-                    rowData.Clear();
+                    var rowData = new List<object>();
                     foreach (var cell in row.ItemArray)
                     {
                         rowData.Add(cell);
